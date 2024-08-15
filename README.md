@@ -15,13 +15,13 @@ Self host solutions for your homelab
 **From docker hub:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 hoonigan/toolszc:latest
+docker run -d --name TOOLSZC --restart unless-stopped -p 8080:80 hoonigan/toolszc:latest
 ```
 
 **From github packages:**
 
 ```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 hoonigan/toolszc:latest
+docker run -d --name TOOLSZC --restart unless-stopped -p 8080:80 HOONIGAN050/toolszc:latest
 ```
 
 **Other solutions:**
